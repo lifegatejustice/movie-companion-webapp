@@ -1,10 +1,12 @@
 # Overview
 
-Movie Companion is a web application that helps users discover and explore movies using real-time data from The Movie Database (TMDb) API. Users can search for movies, browse popular titles, view detailed movie information, and save their favorite movies for later viewing.
+Movie Companion is a web application that allows users to search for movies, browse popular titles, view detailed movie information, and save favorite movies for later viewing. The application retrieves real-time movie data from The Movie Database (TMDb) API and displays it through an interactive user interface.
+
+The purpose of this project was to improve my skills in web application development by working with APIs, asynchronous JavaScript, DOM manipulation, event handling, browser storage, and responsive design. Building this application helped me gain experience integrating external services into a modern web application.
 
 The purpose of this project was to strengthen my web application development skills by working with external APIs, asynchronous JavaScript, DOM manipulation, browser storage, and responsive user interface design. This project provided practical experience building an interactive application that retrieves and displays live data from a third-party service.
 
-[Software Demo Video](https://youtube.link.here)
+[Software Demo Video](https://youtu.be/ZUWczTJocd8)
 
 # Web Pages
 
@@ -21,6 +23,10 @@ When a movie card is selected, a modal window opens and displays additional info
 Users can save movies to their favorites list. Favorite movies are stored using Local Storage, allowing them to persist between browser sessions.
 
 # Development Environment
+
+## Security
+
+API credentials are not hardcoded into the application source code that is published to GitHub. Sensitive configuration data is separated from the main application files to reduce the risk of exposing private credentials.
 
 ## Tools Used
 
